@@ -61,7 +61,9 @@ body {
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
-
+.heading{
+  text-align:center !important;
+}
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -7920,13 +7922,13 @@ button.bg-dark:focus {
   white-space: nowrap; }
 
 .text-left {
-  text-align: left !important; }
+  text-align: left ; }
 
 .text-right {
-  text-align: right !important; }
+  text-align: right ; }
 
 .text-center {
-  text-align: center !important; }
+  text-align: center ; }
 
 @media (min-width: 576px) {
   .text-sm-left {
@@ -8233,7 +8235,7 @@ h1, h2, h3, h4, h5,
   z-index: 3;
   padding: 0; }
   .ftco-navbar-light .container {
-    background: #0d1128;
+    background: #004d99;
     width: 1110px; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
@@ -8610,13 +8612,13 @@ h1, h2, h3, h4, h5,
   background: #fafafa !important; }
 
 .bg-darken {
-  background: #0d1128 !important; }
+  background: #004d99 !important; }
 
 .bg-white {
   background: #fff !important; }
 
 .bg-primary {
-  background: #fd5f00; }
+  background: rgba(255, 133, 51,0.5); }
 
 .bg-secondary {
   background: #fda638 !important; }
@@ -9137,7 +9139,7 @@ textarea.form-control {
       .ftco-footer .block-21 .text .heading a:hover, .ftco-footer .block-21 .text .heading a:active, .ftco-footer .block-21 .text .heading a:focus {
         color: #fd5f00; }
   .ftco-footer .block-21 .text .meta > div {
-    display: inline-block;
+    display: <!--inline--->block;
     font-size: 12px;
     margin-right: 5px; }
     .ftco-footer .block-21 .text .meta > div a {
