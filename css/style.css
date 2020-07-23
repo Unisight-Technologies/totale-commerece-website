@@ -481,7 +481,7 @@ pre {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
-  margin-left: -15px; }
+  margin-left: 15px; }
 
 .no-gutters {
   margin-right: 0;
@@ -8235,11 +8235,11 @@ h1, h2, h3, h4, h5,
   z-index: 3;
   padding: 0; }
   .ftco-navbar-light .container {
-    background: #004d99;
+    background:linear-gradient(#00b7ea 0%, #9ae5ec 100%);
     width: 1110px; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #0d1128 !important;
+      background: linear-gradient(#00b7ea 0%, #9ae5ec 100%) !important;
       position: relative;
       top: 0;
       padding: 10px 15px; } }
@@ -8263,7 +8263,7 @@ h1, h2, h3, h4, h5,
     color: #fff;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-      color: #fff; }
+      color: #004d99; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         padding-left: 0;
@@ -8314,7 +8314,7 @@ h1, h2, h3, h4, h5,
         color: #fff;
         background: #fd5f00; } }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: #fd5f00; }
+    color: #fff; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.active > a {
         color: #fff; } }
@@ -8612,7 +8612,7 @@ h1, h2, h3, h4, h5,
   background: #fafafa !important; }
 
 .bg-darken {
-  background: #004d99 !important; }
+  background: linear-gradient(#00b7ea 0%, #9ae5ec 100%) !important; }
 
 .bg-white {
   background: #fff !important; }
@@ -8646,13 +8646,14 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #fd5f00;
-    border: 1px solid #fd5f00;
-    color: #fff; }
+    background:#004d99;
+    border: 1px solid #00b7ea;
+    color: #fff;
+    }
     .btn.btn-primary:hover {
-      border: 1px solid #fd5f00;
-      background: transparent;
-      color: #fd5f00; }
+      border: 1px solid #fff;
+      background: #fff !important;
+      color: #004d99; }
     .btn.btn-primary.btn-outline-primary {
       border: 1px solid #fd5f00;
       background: transparent;
@@ -8761,7 +8762,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     width: 80px;
     height: 80px;
-    background: #fd5f00;
+    background: linear-gradient(#00b7ea 0%, #9ae5ec 100%) !important;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -9020,7 +9021,7 @@ textarea.form-control {
   visibility: hidden; }
 
 .bg-primary {
-  background: #fd5f00 !important; }
+  background: linear-gradient( #efa889 100%) !important; }
 
 .about-author .desc h3 {
   font-size: 24px; }
