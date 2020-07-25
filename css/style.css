@@ -8611,6 +8611,10 @@ h1, h2, h3, h4, h5,
 .bg-light {
   background: #fafafa !important; }
 
+.bg-light1 {
+  background:linear-gradient(#00b7ea 0%, #9ae5ec 100%) !important; }
+
+
 .bg-darken {
   background: linear-gradient(#00b7ea 0%, #9ae5ec 100%) !important; }
 
