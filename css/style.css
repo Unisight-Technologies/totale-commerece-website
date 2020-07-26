@@ -6635,6 +6635,9 @@ button.bg-dark:focus {
 .mb-4,
 .my-4 {
   margin-bottom: 1.5rem !important; }
+.change1{
+  color: #fff;
+}
 
 .ml-4,
 .mx-4 {
@@ -8618,7 +8621,9 @@ h1, h2, h3, h4, h5,
   background: #fafafa !important; }
 
 .bg-light1 {
-  background:linear-gradient(#00b7ea 0%, #9ae5ec 100%) !important; }
+  background:linear-gradient(#00b7ea 0%, #9ae5ec 100%) !important;
+  color: aliceblue;
+}
 
 
 .bg-darken {
@@ -9564,7 +9569,7 @@ textarea.form-control {
     color: white; }
 
 .contact-section .contact-info p a {
-  color: #1a1a1a; }
+  color: #f8f9fa; }
 
 .contact-section .box {
   width: 100%;
