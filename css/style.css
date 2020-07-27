@@ -8143,7 +8143,8 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: #666666; }
+  color: rgba(255, 255, 255, 0.9);
+ }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -8506,7 +8507,7 @@ h1, h2, h3, h4, h5,
       @media (max-width: 1199.98px) {
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
-      .owl-carousel.home-slider .slider-item .overlay {
+      .home-slider .overlay {
         position: absolute;
         top: 0;
         bottom: 0;
