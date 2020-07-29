@@ -63,6 +63,10 @@ body {
   outline: 0 !important; }
 .heading{
   text-align:center !important;
+.newsfeedcolor{
+  background:pink;
+  border:2px solid purple;
+}
 }
 hr {
   -webkit-box-sizing: content-box;
