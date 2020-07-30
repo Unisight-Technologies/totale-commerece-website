@@ -8632,6 +8632,10 @@ h1, h2, h3, h4, h5,
   background:linear-gradient(#00b7ea 0%, #9ae5ec 100%) !important;
   color: aliceblue;
 }
+.bg-light2 {
+  background:#007bff;
+  color: aliceblue;
+}
 
 
 .bg-darken {
