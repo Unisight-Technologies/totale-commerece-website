@@ -4227,11 +4227,16 @@ input[type="button"].btn-block {
 
 .alert {
   position: relative;
-  padding: 0.75rem 1.25rem;
+  padding: 3.50rem 4.25rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem; }
+.alert:hover{
+  /*background-color: #004bff;*/
+  padding: 4.50rem 5.00rem;
 
+
+}
 .alert-heading {
   color: inherit; }
 
