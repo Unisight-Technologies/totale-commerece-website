@@ -4231,12 +4231,13 @@ input[type="button"].btn-block {
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem; }
-.alert:hover{
-  /*background-color: #004bff;*/
-  padding: 4.50rem 5.00rem;
+  
+  .alert:hover{
+    box-shadow: 0px 15px 20px;
+    color: inherit;
+    transform: translateY(-7px);
+  }
 
-
-}
 .alert-heading {
   color: inherit; }
 
@@ -4254,7 +4255,7 @@ input[type="button"].btn-block {
 
 .alert-primary {
   color: #004085;
-  background-color: #cce5ff;
+  background: linear-gradient(#00b7ea 0%, #9ae5ec 100%);
   border-color: #b8daff; }
   .alert-primary hr {
     border-top-color: #9fcdff; }
@@ -4263,7 +4264,7 @@ input[type="button"].btn-block {
 
 .alert-secondary {
   color: #383d41;
-  background-color: #e2e3e5;
+  background: linear-gradient(#00b7ea 0%, #9ae5ec 100%);
   border-color: #d6d8db; }
   .alert-secondary hr {
     border-top-color: #c8cbcf; }
@@ -4272,7 +4273,7 @@ input[type="button"].btn-block {
 
 .alert-success {
   color: #155724;
-  background-color: #d4edda;
+  background: linear-gradient(#00b7ea 0%, #9ae5ec 100%);
   border-color: #c3e6cb; }
   .alert-success hr {
     border-top-color: #b1dfbb; }
@@ -4281,7 +4282,7 @@ input[type="button"].btn-block {
 
 .alert-info {
   color: #0c5460;
-  background-color: #d1ecf1;
+  background: linear-gradient(#00b7ea 0%, #9ae5ec 100%);
   border-color: #bee5eb; }
   .alert-info hr {
     border-top-color: #abdde5; }
@@ -4290,7 +4291,7 @@ input[type="button"].btn-block {
 
 .alert-warning {
   color: #856404;
-  background-color: #fff3cd;
+  background: linear-gradient(#00b7ea 0%, #9ae5ec 100%);
   border-color: #ffeeba; }
   .alert-warning hr {
     border-top-color: #ffe8a1; }
@@ -4299,7 +4300,7 @@ input[type="button"].btn-block {
 
 .alert-danger {
   color: #721c24;
-  background-color: #f8d7da;
+  background: linear-gradient(#00b7ea 0%, #9ae5ec 100%);
   border-color: #f5c6cb; }
   .alert-danger hr {
     border-top-color: #f1b0b7; }
@@ -4308,7 +4309,7 @@ input[type="button"].btn-block {
 
 .alert-light {
   color: #818182;
-  background-color: #fefefe;
+  background: linear-gradient(#00b7ea 0%, #9ae5ec 100%);
   border-color: #fdfdfe; }
   .alert-light hr {
     border-top-color: #ececf6; }
@@ -4317,7 +4318,7 @@ input[type="button"].btn-block {
 
 .alert-dark {
   color: #1b1e21;
-  background-color: #d6d8d9;
+  background: linear-gradient(#00b7ea 0%, #9ae5ec 100%);
   border-color: #c6c8ca; }
   .alert-dark hr {
     border-top-color: #b9bbbe; }
