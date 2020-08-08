@@ -18,5 +18,10 @@ from django.urls import path
 from commerce_app import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.Homepage.as_view(), name='index')
+    path('',views.Homepage.as_view(), name='index'),
+    path('about/',views.Aboutpage.as_view(),name='about'),
+    path('contact/',views.Contactpage.as_view(),name='contact'),
+    path('courses/',views.Coursespage.as_view(),name='courses'),
+    path('teacher/',views.Teacherpage.as_view(),name='teacher'),
+    path('blog/',views.Blogpage.as_view(),name='blog'),
 ]
