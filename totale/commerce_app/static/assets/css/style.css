@@ -9191,9 +9191,32 @@ textarea.form-control {
     width: 40px;
     display: block;
     float: left;
-    background: rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.05);
     border-radius: 50%;
     position: relative; }
+    .ftco-footer-social li a:before{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:80%;
+    height:80%;
+    border-radius:50%;
+    background-color: linear-gradient(#00b7ea 0%, #9ae5ec 100%) !important;
+    transform: scale(.9);
+    z-index: -1;
+    }
+    .ftco-footer-social li a:hover:before{
+      color:#9ae5ec;
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #9ae5ec !important;
+    filter: blur(3px);
+    }
+    .ftco-footer-social li a:hover {
+    color:#9ae5ec !important;
+    box-shadow: 0 0 15px #9ae5ec !important;
+    text-shadow: 0 0 15px #9ae5ec !important;
+ }
     .ftco-footer-social li a span {
       position: absolute;
       font-size: 20px;
@@ -9202,8 +9225,6 @@ textarea.form-control {
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
-    .ftco-footer-social li a:hover {
-      color: #fff; }
 
 .footer-small-nav > li {
   display: inline-block; }
