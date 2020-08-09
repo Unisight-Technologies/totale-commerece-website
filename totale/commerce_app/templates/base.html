@@ -138,13 +138,12 @@
                 <div class="ftco-footer-widget mb-5 ml-md-4">
                   <h2 class="ftco-heading-2">Links</h2>
                   <ul class="list-unstyled">
-                    <li><a href="index.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-                    <li><a href="about.html"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
-                    <li><a href="courses.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Gallery</a></li>
-                    <li><a href="teacher.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Staff</a></li>
-                    <li><a href="blog.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Newsfeed</a></li>
-                    <li><a href="contact.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
-                  </ul>
+                    <li><a href="{% url 'index' %}" class="ion-ios-arrow-round-forward mr-2">Home</a></li>
+                    <li ><a href="{% url 'about' %}" class="ion-ios-arrow-round-forward mr-2">About</a></li>
+                    <li ><a href="{% url 'courses' %}" class="ion-ios-arrow-round-forward mr-2">Gallery</a></li>
+                    <li ><a href="{% url 'teacher' %}" class="ion-ios-arrow-round-forward mr-2">Staff</a></li>
+                    <li ><a href="{% url 'blog' %}" class="ion-ios-arrow-round-forward mr-2">Newsfeed</a></li>
+                    <li ><a href="{% url 'contact' %}" class="ion-ios-arrow-round-forward mr-2">Contact</a></li>
                 </div>
               </div>
 

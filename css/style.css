@@ -4231,7 +4231,7 @@ input[type="button"].btn-block {
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem; }
-  
+
   .alert:hover{
     box-shadow: 0px 15px 20px;
     color: inherit;
@@ -8653,7 +8653,7 @@ h1, h2, h3, h4, h5,
   background: #fff !important; }
 
 .bg-primary {
-  background: rgba(255, 133, 51,0.5); }
+  background:#9ae5ec;}
 
 .bg-secondary {
   background: #fda638 !important; }
