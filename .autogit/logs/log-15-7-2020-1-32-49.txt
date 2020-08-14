@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Sat Aug 15 2020 01:32:49 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* css/style.css
+* totale/commerce_app/static/assets/css/style.css
+* totale/commerce_app/templates/index.html
+
+
+Created files:
+* .autogit/logs/log-15-7-2020-1-2-18.txt
+
+
+Deleted files:
+
+
+Renamed files:
