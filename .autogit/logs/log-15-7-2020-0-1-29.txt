@@ -1,0 +1,25 @@
+-------------------- Auto-Git Log --------------------
+		Sat Aug 15 2020 00:01:29 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* totale/commerce_app/__pycache__/__init__.cpython-38.pyc
+* totale/commerce_app/__pycache__/admin.cpython-38.pyc
+* totale/commerce_app/__pycache__/models.cpython-38.pyc
+* totale/commerce_app/__pycache__/views.cpython-38.pyc
+* totale/commerce_app/migrations/__pycache__/__init__.cpython-38.pyc
+* totale/commerce_app/templates/courses.html
+* totale/totale/__pycache__/__init__.cpython-38.pyc
+* totale/totale/__pycache__/settings.cpython-38.pyc
+* totale/totale/__pycache__/urls.cpython-38.pyc
+* totale/totale/__pycache__/wsgi.cpython-38.pyc
+
+
+Created files:
+* .autogit/autogit.json
+
+
+Deleted files:
+
+
+Renamed files:
