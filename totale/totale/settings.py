@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import socket
+import environ
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -24,9 +26,11 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = 'lmt$=e&l!%68)@udn1)_ar2m#t038ph%*(z8%432n=vqo_y!q1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
-ALLOWED_HOSTS = []
+DEBUG = False if socket.gethostname() == "ip-172-31-36-225" else True
+
+
+ALLOWED_HOSTS = ['ec2-18-217-108-193.us-east-2.compute.amazonaws.com','127.0.0.1']
 
 
 # Application definition
