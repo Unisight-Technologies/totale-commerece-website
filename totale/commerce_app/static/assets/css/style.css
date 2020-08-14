@@ -4663,8 +4663,8 @@ input[type="button"].btn-block {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    /* -webkit-box-align: ;
-    -ms-flex-align: center; */
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -6388,7 +6388,7 @@ a.close.disabled {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1050;
+    /* z-index: 1050; */
     display: none;
     width: 100%;
     height: 100%;
@@ -7504,7 +7504,7 @@ button.bg-dark:focus {
 }
 
 .rangoota {
-    text-align: center;
+    justify-content: center !important;
 }
 
 .d-inline-flex {
