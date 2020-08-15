@@ -26,10 +26,10 @@ SECRET_KEY = 'lmt$=e&l!%68)@udn1)_ar2m#t038ph%*(z8%432n=vqo_y!q1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = False if socket.gethostname() == "ip-172-31-36-225" else True
+DEBUG = False if socket.gethostname() == "ip-172-31-47-127" else True
 
 
-ALLOWED_HOSTS = ['ec2-18-217-108-193.us-east-2.compute.amazonaws.com','127.0.0.1']
+ALLOWED_HOSTS = ['ec2-3-131-82-126.us-east-2.compute.amazonaws.com','127.0.0.1']
 
 
 # Application definition
