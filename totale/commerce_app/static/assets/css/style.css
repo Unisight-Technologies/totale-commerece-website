@@ -11081,7 +11081,8 @@ h5,
 }
 
 .ftco-navbar-light {
-    background: transparent !important;
+    background: linear-gradient(#00b7ea 0%, #9ae5ec 100%) !important;
+  
     z-index: 3;
     padding: 0;
 }
