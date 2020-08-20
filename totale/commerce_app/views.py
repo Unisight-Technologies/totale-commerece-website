@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.views.generic import View
 from . import models
 from django.contrib import messages
+from . import mailHandler
 # Create your views here.
 
 class Homepage(View):
@@ -31,6 +32,9 @@ class Homepage(View):
 
         admission.save()
         messages.success(request, "Your request has been successfully submitted. We will get back to you soon.")
+        mailHandler.sendMailToUser(name, email)
+        mailHandler.sendMailAdmission(name, email, phone, message, course)
+
         context={
             'unsubmitted':False
         }
@@ -62,6 +66,8 @@ class Contactpage(View):
         )
         query.save()
         messages.success(request, "Your request has been successfully submitted. We will get back to you soon.")
+        mailHandler.sendMailToUser(name, email)
+        mailHandler.sendMailQuery(name, email, message)
         context={
             'unsubmitted':False
         }
