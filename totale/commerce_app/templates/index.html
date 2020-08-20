@@ -14,46 +14,7 @@
             $("#myModal").modal('show');
         });
     </script>
-    <div id="myModal" class="modal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button style="margin-right: 340px;" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Apply Now </h4>
-                </div>
-                <div class="modal-body">
-                    <p>Subscribe to our mailing list to get the latest updates straight in your inbox.</p>
-                    <form method='POST'>
-                        {% csrf_token %}
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="name" placeholder="Your Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="email" placeholder="Your Email">
-                        </div>
-                        <input type="text" class="form-control" name="phone" placeholder="Your whatsappnumber">
 
-                <div class="form-group">
-                    <select name="course" class="form-control">
-                <option value="w">-----Select your course----- </option>
-                <option value="course-1">11th Commerce </option>
-                <option value="course-2">12th Commerce </option>
-                <option value="course-3"> Bcom </option>
-                <option value="course-4">BBA </option>
-                <option value="course-5">CA Foundation</option>
-                <option value="course-6">CS Foundation </option>
-                </select></div>
-
-                <div class="form-group">
-                    <textarea name="" id="" cols="30" rows="7" class="form-control" name="message" placeholder="Message"></textarea>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary py-3 px-5">Send Message</button>
-                </div>
-                </form>
-            </div>
-        </div>
-    </div>
     <section class="home-slider owl-carousel">
 
         <div class="slider-item" style="background-image:url('{% static 'images/bg_1.jpg' %}');">

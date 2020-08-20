@@ -6,15 +6,15 @@ from django.contrib import messages
 
 class Homepage(View):
     def get(self, request, *args, **kwargs):
+        context = {
+            'unsubmitted':True
+        }
 
-        return render(request, 'index.html')
+        return render(request, 'index.html', context)
 
 
     def post(self, request, *args, **kwargs):
-        print('hii')
-
-        print('hello')
-        data = request.post
+        data = request.POST
         name = data.get('name')
         email = data.get('email')
         phone = data.get('phone')
@@ -26,14 +26,15 @@ class Homepage(View):
                         email=email,
                         phone=phone,
                         course=course,
-                        message=message,)
+                        message=message,
+                        )
 
         admission.save()
-        return redirect('index')
-
-
-
-
+        messages.success(request, "Your request has been successfully submitted. We will get back to you soon.")
+        context={
+            'unsubmitted':False
+        }
+        return render(request, 'index.html', context)
 
 class Aboutpage(View):
     def get(self, request, *args, **kwargs):
@@ -45,6 +46,26 @@ class Contactpage(View):
     def get(self, request, *args, **kwargs):
 
         return render(request, 'contact.html')
+
+    def post(self, request, *args, **kwargs):
+
+        data = request.POST
+        name = data.get('name')
+        email = data.get('email')
+        message = data.get('message')
+
+        query = models.Query.objects.create(
+            name=name,
+            email=email,
+            message=message
+
+        )
+        query.save()
+        messages.success(request, "Your request has been successfully submitted. We will get back to you soon.")
+        context={
+            'unsubmitted':False
+        }
+        return render(request, 'index.html', context)
 
 
 class Blogpage(View):
