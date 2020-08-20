@@ -10,6 +10,31 @@ class Homepage(View):
         return render(request, 'index.html')
 
 
+    def post(self, request, *args, **kwargs):
+        print('hii')
+
+        print('hello')
+        data = request.post
+        name = data.get('name')
+        email = data.get('email')
+        phone = data.get('phone')
+        course = data.get('course')
+        message = data.get('message')
+
+        admission = models.AdmissionModel.objects.create(
+                        name=name,
+                        email=email,
+                        phone=phone,
+                        course=course,
+                        message=message,)
+
+        admission.save()
+        return redirect('index')
+
+
+
+
+
 class Aboutpage(View):
     def get(self, request, *args, **kwargs):
 
