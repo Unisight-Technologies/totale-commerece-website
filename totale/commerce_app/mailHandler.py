@@ -30,7 +30,7 @@ def sendMailAdmission(name, email, phone, query, course):
         subject,
         message,
         'teamurbaninsight@gmail.com',
-        ['parmarnaitik0909@gmail.com'],
+        ['tca.commerce.academy@gmail.com'],
         fail_silently = False,
 
     )
