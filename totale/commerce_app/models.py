@@ -13,3 +13,7 @@ class AdmissionModel(models.Model):
     message = models.CharField(max_length=5000)
     course = models.CharField(max_length=100)
     phone = models.BigIntegerField()
+
+    def __str__(self):
+        return_str = self.name+", "+self.course
+        return return_str
