@@ -1,7 +1,4 @@
 totale/db.sqlite3
 totale/commerce_app/__pycache__
 totale/commerce_app/migrations/__pycache__
-.vscode
-.DS_Store
 totale/totale/__pycache__
-totale/totale/.env
