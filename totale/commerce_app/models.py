@@ -6,6 +6,9 @@ class Query(models.Model):
     email = models.EmailField()
     message = models.CharField(max_length=5000)
 
+    def __str__(self):
+        return self.name
+
 
 class AdmissionModel(models.Model):
     name = models.CharField(max_length=100)

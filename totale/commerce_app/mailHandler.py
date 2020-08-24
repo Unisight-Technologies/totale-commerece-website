@@ -18,7 +18,7 @@ def sendMailQuery(name, email, query):
         subject,
         message,
         'teamurbaninsight@gmail.com',
-        ['parmarnaitik0909@gmail.com'],
+        ['tca.commerce.academy@gmail.com'],
         fail_silently = False,
 
     )
