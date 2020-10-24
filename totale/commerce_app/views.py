@@ -53,6 +53,7 @@ class Contactpage(View):
 
     def post(self, request, *args, **kwargs):
 
+
         data = request.POST
         name = data.get('name')
         email = data.get('email')
